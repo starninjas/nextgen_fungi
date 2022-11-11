@@ -2,6 +2,8 @@
 
 -- See README.txt for licensing.
 
+local S = minetest.get_translator(minetest.get_current_modname())
+
 -- Namespace for functions
 
 nextgen_fungi = {}
@@ -11,7 +13,7 @@ nextgen_fungi = {}
 --
 
 minetest.override_item("flowers:mushroom_red", {
-	description = ("Red Mushroom"),
+	description = S("Red Mushroom"),
 	tiles = {
 		"nextgen_fungi_mushroom_red_top.png",
 		"nextgen_fungi_mushroom_red_bottom.png",
@@ -43,7 +45,7 @@ minetest.override_item("flowers:mushroom_red", {
 })
 
 minetest.override_item("flowers:mushroom_brown", {
-	description = ("Brown Mushroom"),
+	description = S("Brown Mushroom"),
 	tiles = {
 		"nextgen_fungi_mushroom_brown_top.png",
 		"nextgen_fungi_mushroom_brown_bottom.png",
