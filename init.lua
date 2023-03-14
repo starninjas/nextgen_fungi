@@ -20,6 +20,7 @@ minetest.override_item("flowers:mushroom_red", {
 		"nextgen_fungi_mushroom_red.png",
 		"nextgen_fungi_mushroom_red.png"
 	},
+	use_texture_alpha = "clip",
 	inventory_image = "nextgen_fungi_mushroom_red.png",
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -52,6 +53,7 @@ minetest.override_item("flowers:mushroom_brown", {
 		"nextgen_fungi_mushroom_brown.png",
 		"nextgen_fungi_mushroom_brown.png"
 	},
+	use_texture_alpha = "clip",
 	inventory_image = "nextgen_fungi_mushroom_brown.png",
 	drawtype = "nodebox",
 	paramtype = "light",
